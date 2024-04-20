@@ -1,0 +1,17 @@
+[package]
+name    = "merkle_tree"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+common           = { path = "../common" }
+poseidon         = { path = "../poseidon" }
+hex.workspace    = true
+anyhow.workspace = true
+k256.workspace   = true
+sha2             = "0.10.*"
+num-traits       = "0.2"
+num-bigint-dig   = "0.8.*"

@@ -1,0 +1,22 @@
+[package]
+name    = "circuits"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { path = "../common" }
+serde.workspace        = true
+serde_json.workspace   = true
+nova-scotia.workspace  = true
+nova-snark.workspace   = true
+pasta_curves.workspace = true
+anyhow.workspace       = true
+bellperson.workspace   = true
+byteorder.workspace    = true
+ff.workspace           = true
+hex-literal.workspace  = true
+itertools.workspace    = true
+num-bigint.workspace   = true
+num-traits.workspace   = true

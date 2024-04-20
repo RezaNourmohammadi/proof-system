@@ -1,0 +1,39 @@
+
+[package]
+name    = "api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common      = { path = "../common" }
+merkle_tree = { path = "../merkle_tree" }
+
+reqwest.workspace            = true
+serde_json.workspace         = true
+tokio.workspace              = true
+axum.workspace               = true
+tower.workspace              = true
+tower-http.workspace         = true
+serde.workspace              = true
+tracing.workspace            = true
+tracing-subscriber.workspace = true
+rand.workspace               = true
+web3.workspace               = true
+hex.workspace                = true
+redis.workspace              = true
+anyhow.workspace             = true
+bitvec.workspace             = true
+nova-scotia.workspace        = true
+nova-snark.workspace         = true
+ff.workspace                 = true
+num-bigint                   = "0.4.*"
+num-traits                   = "0.2.*"
+k256.workspace               = true
+elliptic-curve.workspace     = true
+sha3                         = "0.10.*"
+
+[dev-dependencies]
+tracing-test.workspace = true
+redis-test.workspace   = true

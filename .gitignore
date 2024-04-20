@@ -1,0 +1,15 @@
+/target
+*/**/circuits/pasta/**
+*/**/circuits/secp_secq/**
+*/**/merkle_tree/src/merkle_tree/*.sym
+*/**/merkle_tree/src/eff_ecdsa_membership/*.sym
+*/**/ecdsa/src/step_circuit/*.sym
+*/**/ecdsa/src/ecdsa_tests/*.sym
+*/**/ecdsa/src/eff_ecdsa_membership/*.sym
+*.r1cs
+*.sym
+*.wtns
+ivc.params
+
+nohup.out
+
